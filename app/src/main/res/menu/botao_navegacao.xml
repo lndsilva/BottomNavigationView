@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_favoritos"
+            android:checked="true"
+            android:icon="@drawable/ic_favorite"
+            android:title="UEFA" />
+        <item
+            android:id="@+id/nav_audio"
+            android:icon="@drawable/ic_audiotrack"
+            android:title="Libertadores" />
+        <item
+            android:id="@+id/nav_access"
+            android:icon="@drawable/ic_access_time"
+            android:title="AFC" />
+
+    </group>
+
+</menu>
